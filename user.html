@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>User Registration</h1>
+    <form id="registrationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" required>
+      <br>
+      <label for="place">Place:</label>
+      <input type="text" id="place" required>
+      <br>
+      <label for="batch">Batch Name:</label>
+      <select id="batch" required>
+        <option value="WEB-13">WEB-13</option>
+        <option value="WEB-14">WEB-14</option>
+        <option value="WEB-15">WEB-15</option>
+      </select>
+      <br>
+      <label for="profession">Profession:</label>
+      <select id="profession" required>
+        <option value="FSD">FSD</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+        <option value="Student">Student</option>
+      </select>
+      <br>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

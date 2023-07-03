@@ -1,0 +1,49 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-top: 40px;
+  }
+  
+  form {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
