@@ -1,7 +1,12 @@
 {
-    "data": [
+    "users": [
         {
-            "id": 1
+            "id" : 1,
+            "name" : "Manav",
+            "age" : 23,
+            "place" : "Indore",
+            "batchName" : "RM-101",
+            "profession" : "FSD"
         }
     ]
 }
